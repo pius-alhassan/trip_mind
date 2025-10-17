@@ -1,4 +1,4 @@
-"dataset/raw_dataset/" 
-"dataset/processed_dataset/" 
-"dataset/external/" 
-"models/" 
+dataset/raw_dataset/
+dataset/processed_dataset/ 
+dataset/external/
+models/
