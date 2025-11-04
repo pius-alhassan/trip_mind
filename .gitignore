@@ -2,4 +2,6 @@ dataset/raw_dataset/
 dataset/processed_dataset/ 
 dataset/external/
 models/
-notebooks/EDAs/primary/
+notebooks/EDAs/primary/eda_01.ipynb
+notebooks/EDAs/primary/eda_02.ipynb
+tm_env/
