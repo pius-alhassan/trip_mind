@@ -19,6 +19,7 @@ sns.set_palette("husl")
 plt.rcParams["figure.figsize"] = (12, 8)
 
 def load_data(path: str = None):
+    
     """
     Loading of the Hotel Reviews dataset from the given or default path.
 
@@ -32,7 +33,7 @@ def load_data(path: str = None):
         # Default path (relative to project root)
         path = os.path.join(
             os.path.dirname(__file__),
-            "dataset", 
+            "dataset",
             "raw_dataset",
             "Hotel_Reviews.csv"
         )
