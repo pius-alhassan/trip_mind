@@ -32,7 +32,7 @@ def load_data(path: str = None):
     if path is None:
         # Default path (relative to project root)
         path = os.path.join(
-            os.path.dirname(__file__), 
+            os.path.dirname(__file__),
             "dataset", 
             "raw_dataset", 
             "Hotel_Reviews.csv"
