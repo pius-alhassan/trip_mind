@@ -1,0 +1,1 @@
+This folder contains all the images saved from various phases of the model development.

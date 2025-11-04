@@ -1,0 +1,1 @@
+This folder contains all the Exploratory Data Analysis performed in this project. Categorized as primar, secondary and tertiary

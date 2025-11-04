@@ -1,0 +1,1 @@
+This folder contains files and subfolders documented for reference purposes in order to build responsible A.I
