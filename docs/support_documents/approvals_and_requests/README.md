@@ -1,0 +1,1 @@
+This folder contains all the approval and request letters received and sent respectively in other to build a responsible A.I system
