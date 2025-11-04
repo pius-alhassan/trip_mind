@@ -1,9 +1,11 @@
 import pandas as pd
 from sklearn.model_selection import train_test_split
 
+
 def load_data(data_path):
     """Loads the raw data from a specified path."""
     return pd.read_csv(data_path)
+
 
 def clean_data(df: pd.DataFrame) -> pd.DataFrame:
     """Performs initial data cleaning."""
@@ -12,10 +14,14 @@ def clean_data(df: pd.DataFrame) -> pd.DataFrame:
     # e.g., Extract features from `Tags` (e.g., Leisure trip, Couple, etc.)
     return df
 
+
 def split_data(df: pd.DataFrame, test_size=0.2, random_state=42):
     """Splitting data into train and test sets."""
-    train_df, test_df = train_test_split(df, test_size=test_size, random_state=random_state)
+    train_df, test_df = train_test_split(
+        df, test_size=test_size, random_state=random_state
+    )
     return train_df, test_df
+
 
 if __name__ == '__main__':
     # Example usage

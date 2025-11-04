@@ -5,9 +5,7 @@ Handles imports, visualization settings, and dataset loading.
 
 import os
 import warnings
-from datetime import datetime
 
-import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -19,6 +17,7 @@ warnings.filterwarnings("ignore")
 plt.style.use("seaborn-v0_8")
 sns.set_palette("husl")
 plt.rcParams["figure.figsize"] = (12, 8)
+
 
 def load_data(path: str = None):
     """
@@ -33,7 +32,10 @@ def load_data(path: str = None):
     if path is None:
         # Default path (relative to project root)
         path = os.path.join(
-            os.path.dirname(__file__), "dataset", "raw_dataset", "Hotel_Reviews.csv"
+            os.path.dirname(__file__), 
+            "dataset", 
+            "raw_dataset", 
+            "Hotel_Reviews.csv"
         )
 
     try:
