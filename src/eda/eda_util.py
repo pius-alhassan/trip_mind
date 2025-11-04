@@ -18,8 +18,8 @@ plt.style.use("seaborn-v0_8")
 sns.set_palette("husl")
 plt.rcParams["figure.figsize"] = (12, 8)
 
+
 def load_data(path: str = None):
-    
     """
     Loading of the Hotel Reviews dataset from the given or default path.
 
