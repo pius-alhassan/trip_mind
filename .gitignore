@@ -2,5 +2,4 @@ dataset/raw_dataset/
 dataset/processed_dataset/ 
 dataset/external/
 models/
-notebooks/EDA/primary/eda_01.ipynb
-notebooks/EDA/primary/eda_02.ipynb
+notebooks/EDAs/primary/
