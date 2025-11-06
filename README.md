@@ -5,6 +5,7 @@ A machine learning-powered system to provide personalized hotel recommendations 
 ## Project Overview
 
 This project demonstrates:
+
 - **End-to-end ML Engineering:** From data ingestion to model deployment.
 - **Software Development Best Practices:** Version control, CI/CD, testing, and code quality.
 - **Modern ML Tools:** Extensive use of the Python data science ecosystem.
@@ -13,12 +14,15 @@ This project demonstrates:
 ## Dataset
 
 ### Acknowledgements
-The data was scraped from Booking.com. All data in the file is publicly available to everyone already. Please be noted that data is originally owned by Booking.com.
+
+The data was scraped from Kaggle.com. All data in the file is publicly available to everyone already. Please note that the data is originally owned by Jiashen Liu, using this url as reference: https://www.kaggle.com/datasets/jiashenliu/515k-hotel-reviews-data-in-europe
 
 ### Data Context
+
 This dataset contains 515,000 customer reviews and scoring of 1493 luxury hotels across Europe. Meanwhile, the geographical location of hotels are also provided for further analysis.
 
 ### Data Content
+
 The csv file contains 17 fields. The description of each field is as below:
 
 - Hotel_Address: Address of hotel.
