@@ -48,19 +48,39 @@ The csv file contains 17 fields. The description of each field is as below:
 - lng: longtitude of the hotel
 
 🏗️ Complete Project Structure Established
-<details> <summary>TRIP_MIND/</summary>
+<details> 
+<summary>TRIP_MIND/</summary>
+```
+TRIP_MIND/
 ├── .github/workflows/                  # CI/CD Automation
 │   └── test.yml                        # Automated testing pipeline
 ├── config/
 │   └── .pre-commit-config.yaml         # Code quality hooks
 ├── dataset/                             # Organized data management
-│   ├── external/                        # Third-party datasets
-│   ├── processed_dataset/               # Cleaned & transformed data
-│   └── raw_dataset/                     # Original source data
+│   <details>
+│   <summary>external/</summary>
+│   └── (Third-party datasets)
+│   </details>
+│   <details>
+│   <summary>processed_dataset/</summary>
+│   └── (Cleaned & transformed data)
+│   </details>
+│   <details>
+│   <summary>raw_dataset/</summary>
+│   └── (Original source data)
+│   </details>
 ├── docs/                                # Comprehensive documentation
-│   ├── support_documents/
-│   │   ├── images/                      # Visual assets
-│   │   └── approvals_and_requests/      # Project approvals
+│   <details>
+│   <summary>support_documents/</summary>
+│       <details>
+│       <summary>images/</summary>
+│       └── (Visual assets)
+│       </details>
+│       <details>
+│       <summary>approvals_and_requests/</summary>
+│       └── (Project approvals)
+│       </details>
+│   </details>
 │   ├── ETHICS.md                        # Ethical guidelines
 │   └── LEGAL.md                         # Legal considerations
 ├── models/                              # Trained ML models storage
@@ -87,9 +107,18 @@ The csv file contains 17 fields. The description of each field is as below:
 │   <summary>eda/</summary>
 │   └── eda_util.py
 │   </details>
-│   ├── features/                         # Feature engineering
-│   ├── models/                           # ML model implementations
-│   ├── visualization/                    # Plotting & charts
+│   <details>
+│   <summary>features/</summary>
+│   └── (Feature engineering code)
+│   </details>
+│   <details>
+│   <summary>models/</summary>
+│   └── (ML model implementations)
+│   </details>
+│   <details>
+│   <summary>visualization/</summary>
+│   └── (Plotting & charts)
+│   </details>
 │   └── __init__.py
 ├── tests/                                # Test suite
 ├── tm_env/                               # Virtual environment
@@ -99,7 +128,7 @@ The csv file contains 17 fields. The description of each field is as below:
 ├── pyproject.toml                        # Project configuration
 ├── README.md                             # Project documentation
 └── requirements.txt                      # Dependencies
-
+```
 </details>
 
 ## Getting Started
