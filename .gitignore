@@ -1,7 +1,26 @@
+# Ignore dataset folders
 dataset/raw_dataset/
 dataset/processed_dataset/ 
 dataset/external/
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.json
+
+# Ignore trained machine learning models
 models/
+*.h5
+*.pkl
+*.joblib
+*.pt
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore specific Jupyter Notebooks
 notebooks/EDAs/primary/eda_01.ipynb
 notebooks/EDAs/primary/eda_02.ipynb
+
+# Virtual environments
 tm_env/
