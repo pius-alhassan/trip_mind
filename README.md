@@ -2,7 +2,11 @@
 
 A machine learning-powered system to provide personalized hotel recommendations based on user reviews and metadata.
 
-## Project Overview
+## 📋 Project Overview
+Trip Mind is an Intelligent Decision Support System built by our 5-member team to create a hotel recommendation application using machine learning techniques. This initial setup establishes the complete development foundation for collaborative work.
+
+### 🎯 Primary Objective
+This merge provides a standardized, production-ready project structure that enables all team members - including those new to software development - to immediately clone and contribute to the project without setup hurdles.
 
 This project demonstrates:
 
@@ -42,6 +46,48 @@ The csv file contains 17 fields. The description of each field is as below:
 - Additional_Number_of_Scoring: There are also some guests who just made a scoring on the service rather than a review. This number indicates how many - - valid scores without review in there.
 - lat: Latitude of the hotel
 - lng: longtitude of the hotel
+
+### 🏗️ Complete Project Structure Established
+
+TRIP_MIND/
+├── .github/workflows/           # CI/CD Automation
+│   └── test.yml                 # Automated testing pipeline
+├── config/
+│   └── .pre-commit-config.yaml  # Code quality hooks
+├── dataset/                     # Organized data management
+│   ├── external/                # Third-party datasets
+│   ├── processed_dataset/       # Cleaned & transformed data
+│   └── raw_dataset/            # Original source data
+├── docs/                        # Comprehensive documentation
+│   ├── support_documents/
+│   │   ├── images/             # Visual assets
+│   │   └── approvals_and_requests/ # Project approvals
+│   ├── ETHICS.md               # Ethical guidelines
+│   └── LEGAL.md                # Legal considerations
+├── models/                      # Trained ML models storage
+├── notebooks/                   # Research & experimentation
+│   ├── primary/                # Main EDA notebooks
+│   │   ├── eda_01.ipynb
+│   │   └── eda_02.ipynb
+│   ├── secondary/              # Supplementary analysis
+│   └── tertiary_eda/           # Advanced exploration
+├── src/                        # Production code
+│   ├── data_processing/
+│   │   └── data_preprocessing.py  # Data loading & cleaning
+│   ├── eda/
+│   │   └── eda_util.py           # EDA helper functions
+│   ├── features/               # Feature engineering
+│   ├── models/                 # ML model implementations
+│   ├── visualization/          # Plotting & charts
+│   └── __init__.py
+├── tests/                      # Test suite
+├── tm_env/                     # Virtual environment
+├── .env                        # Environment variables
+├── .gitignore                  # Git exclusion rules
+├── LICENSE                     # Project license
+├── pyproject.toml             # Project configuration
+├── README.md                   # Project documentation
+└── requirements.txt           # Dependencies
 
 ## Getting Started
 
