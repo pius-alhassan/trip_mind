@@ -47,47 +47,60 @@ The csv file contains 17 fields. The description of each field is as below:
 - lat: Latitude of the hotel
 - lng: longtitude of the hotel
 
-### 🏗️ Complete Project Structure Established
-
-TRIP_MIND/
-├── .github/workflows/           # CI/CD Automation
-│   └── test.yml                 # Automated testing pipeline
+🏗️ Complete Project Structure Established
+<details> <summary>TRIP_MIND/</summary>
+├── .github/workflows/                  # CI/CD Automation
+│   └── test.yml                        # Automated testing pipeline
 ├── config/
-│   └── .pre-commit-config.yaml  # Code quality hooks
-├── dataset/                     # Organized data management
-│   ├── external/                # Third-party datasets
-│   ├── processed_dataset/       # Cleaned & transformed data
-│   └── raw_dataset/            # Original source data
-├── docs/                        # Comprehensive documentation
+│   └── .pre-commit-config.yaml         # Code quality hooks
+├── dataset/                             # Organized data management
+│   ├── external/                        # Third-party datasets
+│   ├── processed_dataset/               # Cleaned & transformed data
+│   └── raw_dataset/                     # Original source data
+├── docs/                                # Comprehensive documentation
 │   ├── support_documents/
-│   │   ├── images/             # Visual assets
-│   │   └── approvals_and_requests/ # Project approvals
-│   ├── ETHICS.md               # Ethical guidelines
-│   └── LEGAL.md                # Legal considerations
-├── models/                      # Trained ML models storage
-├── notebooks/                   # Research & experimentation
-│   ├── primary/                # Main EDA notebooks
-│   │   ├── eda_01.ipynb
-│   │   └── eda_02.ipynb
-│   ├── secondary/              # Supplementary analysis
-│   └── tertiary_eda/           # Advanced exploration
-├── src/                        # Production code
-│   ├── data_processing/
-│   │   └── data_preprocessing.py  # Data loading & cleaning
-│   ├── eda/
-│   │   └── eda_util.py           # EDA helper functions
-│   ├── features/               # Feature engineering
-│   ├── models/                 # ML model implementations
-│   ├── visualization/          # Plotting & charts
+│   │   ├── images/                      # Visual assets
+│   │   └── approvals_and_requests/      # Project approvals
+│   ├── ETHICS.md                        # Ethical guidelines
+│   └── LEGAL.md                         # Legal considerations
+├── models/                              # Trained ML models storage
+├── notebooks/                            # Research & experimentation
+│   <details>
+│   <summary>primary/</summary>
+│   ├── eda_01.ipynb
+│   └── eda_02.ipynb
+│   </details>
+│   <details>
+│   <summary>secondary/</summary>
+│   └── (Supplementary analysis notebooks)
+│   </details>
+│   <details>
+│   <summary>tertiary_eda/</summary>
+│   └── (Advanced exploration notebooks)
+│   </details>
+├── src/                                  # Production code
+│   <details>
+│   <summary>data_processing/</summary>
+│   └── data_preprocessing.py
+│   </details>
+│   <details>
+│   <summary>eda/</summary>
+│   └── eda_util.py
+│   </details>
+│   ├── features/                         # Feature engineering
+│   ├── models/                           # ML model implementations
+│   ├── visualization/                    # Plotting & charts
 │   └── __init__.py
-├── tests/                      # Test suite
-├── tm_env/                     # Virtual environment
-├── .env                        # Environment variables
-├── .gitignore                  # Git exclusion rules
-├── LICENSE                     # Project license
-├── pyproject.toml             # Project configuration
-├── README.md                   # Project documentation
-└── requirements.txt           # Dependencies
+├── tests/                                # Test suite
+├── tm_env/                               # Virtual environment
+├── .env                                  # Environment variables
+├── .gitignore                            # Git exclusion rules
+├── LICENSE                               # Project license
+├── pyproject.toml                        # Project configuration
+├── README.md                             # Project documentation
+└── requirements.txt                      # Dependencies
+
+</details>
 
 ## Getting Started
 
